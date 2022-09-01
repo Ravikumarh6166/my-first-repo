@@ -1,0 +1,28 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoLinkedList1App {
+
+	public static void main(String[] args) {
+		
+List<DemoLinkedList1> list=new LinkedList<DemoLinkedList1>();
+
+DemoLinkedList1 dl=new DemoLinkedList1(101, "Ramachari", "Bangalore", 50000);
+DemoLinkedList1 dl1=new DemoLinkedList1(102, "Charulata", "Dharawad", 40000);
+DemoLinkedList1 dl2=new DemoLinkedList1(103, "vedanth", "Bilapur", 60000);
+DemoLinkedList1 dl3=new DemoLinkedList1(104, "Amulya", "Hubli", 55000);
+DemoLinkedList1 dl4=new DemoLinkedList1(105, "Anu", "Balgaum", 60000);
+
+list.add(dl);
+list.add(dl1);
+list.add(dl2);
+list.add(dl3);
+list.add(dl4);
+
+for(DemoLinkedList1 dll:list) {
+	System.out.println(dll.id+" "+dll.name+" " +dll.City+ " "+dll.salary);
+}
+	}
+
+}

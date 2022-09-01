@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;exceptionhandling.com.ReadingFile&apos; to &apos;CovertingStreingToNumber&apos;&#x0D;&#x0A;- Original project: &apos;corejava&apos;&#x0D;&#x0A;- Original element: &apos;exceptionhandling.com.ReadingFile&apos;&#x0D;&#x0A;- Renamed element: &apos;exceptionhandling.com.CovertingStreingToNumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ReadingFile&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exceptionhandling.com{ReadingFile.java[ReadingFile" matchStrategy="1" name="CovertingStreingToNumber" qualified="false" references="true" similarDeclarations="false" stamp="1659593420066" textual="false" version="1.0"/>
+</session>

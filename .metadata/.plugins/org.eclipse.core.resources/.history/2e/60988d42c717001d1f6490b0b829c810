@@ -1,0 +1,29 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoList {
+
+	public static void main(String[] args) { 
+		
+		List<String> list = new ArrayList<String>(); // arraylist is created
+		
+		// elements are added
+		
+		list.add("Ramachari");
+		list.add("charulata");
+		list.add("vedanth");
+		list.add("Amulya");
+		list.add("RowdyBaby");
+		
+		// iterator objected is created for iterator
+		Iterator itr = list.iterator();
+        //System.out.println(list);
+		
+		// elements are traverse
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+
+}

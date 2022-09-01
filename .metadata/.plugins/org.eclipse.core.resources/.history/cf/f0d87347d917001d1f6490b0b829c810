@@ -1,0 +1,26 @@
+package collectonframework;
+
+import java.util.*;
+
+public class BookApp {
+
+	public static void main(String[] args) {
+
+List<Book> list = new LinkedList<Book>();
+
+Book b1 = new Book(11, "Let us C", "Yashwant Kantekar", "BPB", 8);
+Book b2 = new Book(12, "Data Communication & Networking", "Forouzan", "Mc graw hill", 4);
+Book b3 = new Book(13, "opertating system", "Galvin", "Wile", 6);
+
+		list.add(b1);
+		list.add(b2);
+		list.add(b3);
+
+		for (Book b : list) {
+			System.out.println(b.id + " " + b.name + " " + b.author
+					+ " " + b.publisher + " " + b.quantity);
+		}
+
+	}
+
+}

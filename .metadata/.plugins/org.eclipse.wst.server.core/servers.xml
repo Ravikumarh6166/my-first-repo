@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="6">
+    <list key="modules" value0="myurlwrewriting::org.eclipse.jst.j2ee.server:myurlwrewriting::jst.web::2.2" value1="filterapp::org.eclipse.jst.j2ee.server:filterapp::jst.web::2.2" value2="filterDemo::org.eclipse.jst.j2ee.server:filterDemo::jst.web::2.2" value3="WebApps::org.eclipse.jst.j2ee.server:WebApps::jst.web::2.2" value4="Crudservlet::org.eclipse.jst.j2ee.server:Crudservlet::jst.web::2.2"/>
+  </server>
+</servers>

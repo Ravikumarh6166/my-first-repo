@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration Form</title></br></br>
+</head>
+<body>
+<form name="form1" action=>
+ID:<input type="text" name="id"></br><br>
+FirstName:<input type="text" name="fn"><br><br>
+LastName:<input type="text" name="ln"><br><br>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoList {
+
+	public static void main(String[] args) {
+List<String>list=new ArrayList<String>();
+list.add("Ramachari");
+list.add("charulata");
+list.add("vedanth");
+list.add("Amulya");
+list.add("RowdyBaby");
+Iterator itr=list.iterator();
+
+	}
+
+}

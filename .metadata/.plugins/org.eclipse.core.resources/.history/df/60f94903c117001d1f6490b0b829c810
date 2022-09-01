@@ -1,0 +1,22 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoList2 {
+
+	public static void main(String[] args) {
+		
+List<String>cars=new ArrayList<String>();
+
+cars.add("Ford");
+cars.add("Bmw");
+cars.add("Mazda");
+cars.add("Volvo");
+
+ int len=cars.size();
+ for(int i=0; i<len;i++) {
+ System.out.println(cars.get(len));
+ }
+	}
+
+}

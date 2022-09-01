@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+<script src="scripts.js"></script> 
+</head>
+<body>
+<form name="f1" action="AdminLogin" onsubmit="returnfun2()">
+<table align="center" cellspacing="10px" cellpadding="10px">
+<caption><h1> Wellcome to FSG Admin Page</h1></caption>
+<tr>
+<td>
+<label>Admin userid</label>
+<input type="text" name="nm">
+</td>
+</tr>
+<tr>
+<td>
+<label>Admin Password</label>
+<input type="text" name="pwd">
+</td>
+</tr>
+</table>
+</body>
+</html>

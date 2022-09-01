@@ -1,0 +1,18 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoLinkedList1App {
+
+	public static void main(String[] args) {
+		
+List<DemoLinkedList1> list=new LinkedList<DemoLinkedList1>();
+
+DemoLinkedList1 dl=new DemoLinkedList1(101, "Ramachari", "Bangalore", 50000);
+DemoLinkedList1 dl1=new DemoLinkedList1(101, "Charulata", "Dharawad", 40000);
+DemoLinkedList1 dl2=new DemoLinkedList1(101, "vedanth", "Bilapur", 60000);
+DemoLinkedList1 dl3=new DemoLinkedList1(101, "Amulya", "Hubli", 55000);
+DemoLinkedList1 dl4=new DemoLinkedList1(101, "Anu", "Balgaum", 60000);
+	}
+
+}

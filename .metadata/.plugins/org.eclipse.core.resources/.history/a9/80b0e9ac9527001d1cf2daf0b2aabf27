@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<Form action="process">
+Enter the Laptop Brand:<input type="text" name="lpname"><br>
+Enter the Price:<input type="text" name="price"><br>
+<input type="submit" value="clickme"><br>
+</Form>
+</body>
+</html>

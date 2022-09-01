@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="requ" method="post">
+<h1 style="color:red">Request Dispatcher</h1>
+<p>The RequestDispatcher interface provides the facility of
+ dispatching the request to another resource 
+ it may be html, servlet or jsp.</p>>
+Name<input type="text" name="nm"><br><br>
+Email<input type="email" name="useremail"><br><br>
+Password<input type="password" name="upw"><br><br>
+<input type="submit" value="login"><br><br>
+
+</form>
+</body>
+</html>

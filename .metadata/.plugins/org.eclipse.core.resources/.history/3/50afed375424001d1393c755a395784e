@@ -1,0 +1,27 @@
+package com.fsg.Servlavi1234et;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Servlet1 extends HttpServlet {
+	
+public void doPost(HttpServletRequest req,HttpServletResponse resp)
+		throws ServletException,IOException {
+	
+String name	=req.getParameter("nm");
+String email=req.getParameter("useremail");
+String password	=req.getParameter("upw");
+
+RequestDispatcher rd=req.getRequestDispatcher("servlet2");
+
+if(password.equals("ravi1234") &&email.equals("ravi6166raj@gmail.com")) {
+	rd.forward(req, resp);
+}
+}
+
+}

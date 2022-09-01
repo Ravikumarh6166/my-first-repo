@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Naukri Profile</h1>
+<h2>Employee Details</h2>
+<form action="./reg" method="post">
+<table>
+<tr>
+<td>Employee Id</td>
+<td><input type="text" name="eid">
+</tr>
+
+<tr>
+<td>Employee Name</td>
+<td><input type="text" name="ename">
+<input type="radio"  value="Male">Male
+</tr>
+
+
+</table>
+</form>
+</body>
+</html>

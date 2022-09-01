@@ -1,0 +1,26 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoList3 {
+
+	public static void main(String[] args) {
+		
+ List<Integer> list=new ArrayList<Integer>();
+ 
+ list.add(122);
+ list.add(126);
+ list.add(128);
+ list.add(130);
+ 
+ for(int i=0;i<=4;i++) {
+	 System.out.println(i);
+ }
+ 
+ /*System.out.println(list.get(0));
+ System.out.println(list.get(1));
+ System.out.println(list.get(2));
+ System.out.println(list.get(3));*/
+	}
+
+}

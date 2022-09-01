@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<Form action="process">
+<input type="text" name="lpname"><br>
+<input type="text" name="price"><br>
+<input type="" name="lpname"><br>
+</body>
+</html>

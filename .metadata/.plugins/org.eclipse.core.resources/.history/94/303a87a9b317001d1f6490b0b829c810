@@ -1,0 +1,31 @@
+package collectonframework;
+
+import java.util.*;
+
+public class DemoList3 {
+
+	public static void main(String[] args) {
+		
+ List<Integer> list=new ArrayList<Integer>();
+ 
+ list.add(122);
+ list.add(126);
+ list.add(128);
+ list.add(130);
+ list.add(134);
+ list.remove(4);
+ list.set(1, 124); // t;o set the replace the data
+ 
+ int len=list.size(); // used for array size
+ 
+ for(int i=0;i<len;i++) {
+	 System.out.println(list.get(i));
+ }
+ 
+ /*System.out.println(list.get(0));
+ System.out.println(list.get(1));
+ System.out.println(list.get(2));
+ System.out.println(list.get(3));*/
+	}
+
+}

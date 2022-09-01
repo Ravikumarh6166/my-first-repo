@@ -1,0 +1,26 @@
+package com.fsg.Servlet;
+
+import java.io.IOException;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+public class RegisterEmp extends GenericServlet {
+
+	@Override
+	public void service(ServletRequest req, ServletResponse resp) 
+			throws ServletException, IOException {
+		
+		int S_id=Integer.parseInt(req.getParameter("id"));
+		String firstname=req.getParameter("fn");
+		String lastname=req.getParameter("ln");
+		String city=req.getParameter("city");
+		int salary=Integer.parseInt(req.getParameter("sal"));
+		
+		
+		
+	}
+
+}
